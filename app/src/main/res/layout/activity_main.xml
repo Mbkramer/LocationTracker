@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:elevation="0dp"-->
+<!--        android:scaleType="fitXY"-->
+<!--        app:srcCompat="@drawable/arrow_lake" />-->
+
+    <TextView
+        android:elevation="2dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textColor="@color/black"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="64dp"
+        tools:text="Location 101" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="164dp"
+        tools:text="Latitude: " />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="225dp"
+        tools:text="Longitude: " />
+
+    <TextView
+        android:id="@+id/accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="276dp"
+        tools:text="Accuracy: " />
+
+    <TextView
+        android:id="@+id/altitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="325dp"
+        tools:text="Altitude: " />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="370dp"
+        tools:text="Address: " />
+
+</LinearLayout>
